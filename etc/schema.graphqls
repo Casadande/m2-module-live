@@ -1,0 +1,5 @@
+type StoreConfig {
+    casadande_live_is_streaming : Boolean  @doc(description: "Is Casadande streaming?"),
+    casadande_live_enable_custom_frontend_title : Boolean  @doc(description: "Enable custom frontend Title?"),
+    casadande_live_frontend_title : String  @doc(description: "This Title will display on the frontend.")
+}

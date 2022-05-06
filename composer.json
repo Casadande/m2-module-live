@@ -1,0 +1,23 @@
+{
+  "name": "casadande/live",
+  "description": "Casadande livestream",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Casadande",
+      "email": "",
+      "homepage": "https://casadande.com.br",
+      "role": "Owner"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Casadande\\Live\\": ""
+    }
+  }
+}

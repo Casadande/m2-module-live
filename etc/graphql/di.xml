@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\StoreGraphQl\Model\Resolver\Store\StoreConfigDataProvider">
+        <arguments>
+            <argument name="extendedConfigData">
+                <item name="casadande_live_is_streaming" xsi:type="string">casadande/general/is_streaming</item>
+                <item name="casadande_live_enable_custom_frontend_title" xsi:type="string">casadande/general/enable_custom_frontend_title</item>
+                <item name="casadande_live_frontend_title" xsi:type="string">casadande/general/frontend_title</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
